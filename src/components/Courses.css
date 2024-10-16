@@ -1,0 +1,124 @@
+.courses { 
+    text-align: center;
+}
+.courses .card-list .card-item {
+    color: white;
+    background-color: rgb(50, 53, 56);
+    padding: 30px;
+    width: 300px;
+    border-radius: 20px;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(30px);
+}
+.courses .card-list .card-item img{
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.courses .card-list .card-item .classname{
+    font-size: 16px;
+    color: rgb(175, 255, 107);
+}
+.courses .card-list .card-item .teacher{
+    display: flex;
+    min-height: 73px;
+    margin: 20px 0;
+}
+.courses .card-list .card-item .teacher .info{
+    display: flex;
+}
+.courses .card-list .card-item .teacher .info img{
+    width: 64px;
+    height: 73px;
+}
+.courses .card-list .card-item .teacher .info .teacher-info{
+    align-self: center;
+    text-align: right;
+    margin-right: 10px;
+}
+.courses .card-list .card-item .teacher .info .teacher-info .teacherName{
+    font-size: 18px;
+    font-weight: 500;
+}
+.courses .card-list .card-item .teacher .info .teacher-info .teacherSubject{
+    font-size: 16px;
+    font-weight: 300;
+} 
+.courses .card-list .card-item .teacher .price{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.courses .card-list .card-item .teacher .price h5{
+    border: 1px solid rgb(175, 255, 107);
+    color: rgb(175, 255, 107);
+    border-radius: 25px;
+    padding: 8px;
+}
+.courses .card-list .card-item .courseName{
+    font-size: 20px;
+}
+.courses .course-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 74, 77, 0.5);
+    padding: 15px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.courses .course-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 74, 77, 0.5);
+    padding: 15px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.courses .course-content > div {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses .course-content > div span {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #fff;
+}
+
+@media (max-width: 1199px){
+    .courses .card-list .card-item .teacher{
+        display: block;
+        margin: 20px auto;    
+    }
+    .courses .card-list .card-item .teacher .info{
+        display: block;
+    }
+    .courses .card-list .card-item .teacher .info img{
+        margin: 10px 0;
+    }
+    .courses .card-list .card-item .teacher .info .teacher-info{
+        text-align: center;
+        margin: 0;
+    }
+    .courses .card-list .card-item .teacher .price{
+        margin: 10px 0;
+        flex: 0;
+        justify-content: center;
+    }
+    .courses .card-list .card-item .courseName{
+        font-size: 16px;
+    }
+}

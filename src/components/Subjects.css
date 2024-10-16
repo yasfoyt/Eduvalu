@@ -1,0 +1,37 @@
+.subjects{
+    color: white;
+    text-align: center;
+}
+.subjects .card-list .card-item{
+  display: flex;
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px !important;
+  width: 300px;
+  height: 129px;
+  flex-direction: row;
+  gap: 20px;
+}
+.subjects .card-list .card-item .image {
+  height: 129px;
+}
+.subjects .card-list .card-item .image img{
+  width: 89px;
+  border-radius: 10px;
+  height: 89px !important;
+}
+.subjects .card-list .card-item .info{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+.subjects .card-list .card-item .info .subjectName{
+  font-size: 20px;
+}
+.subjects .card-list .card-item .info .subjectTeachers{
+  font-size: 16px;
+  color: rgb(190, 196, 224);
+}

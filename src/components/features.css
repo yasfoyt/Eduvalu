@@ -1,0 +1,56 @@
+.features-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 16px; /* Space between items */
+    padding: 16px; /* Optional: Add some padding */
+}
+
+.feat {
+    background-color: rgb(50, 53, 56); /* Background color */
+    border-radius: 20px;
+    color: white; /* Text color */
+    padding: 60px 20px; /* Padding inside each feature */
+    text-align: center; /* Center text */
+}
+
+.feat .icon-box {
+    background-color: rgb(175, 255, 107);
+    padding: 16px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border-radius: 100px;
+    width: fit-content; /* Adjust width based on content */
+    margin: 0 auto; /* Center the icon box horizontally */
+    margin-bottom: 15px !important;
+}
+
+.feat .icon-box .icon {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: black;
+}
+
+.feat .feat-name {
+    font-size: 16px; /* Fixed the font size */
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.feat .feat-desc {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .features-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .features-wrapper {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+}

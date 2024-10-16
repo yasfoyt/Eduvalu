@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+    font-family: "Tajawal", sans-serif;
+    font-style: normal;
+}
+
+/* Styles */
+header{
+    background-color: #323538bf;
+    padding: 20px;
+    z-index: 10000;
+    color: white;
+    backdrop-filter: blur(16px);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container .logo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+.nav-links li a{
+    color: white;
+}
+
+.sign-form {
+    display: flex;
+    gap: 10px;
+}
+header .navbar .menu{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header .responsive-nav{
+    display: none !important;
+    background-color: #323538bf;
+    top: 80px;
+    right: 120px;
+    padding: 25px;
+    position: absolute;
+}
+header .responsive-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .responsive-nav li{
+    padding: 10px 0;
+}
+header .responsive-nav li a{
+    color: white;
+}
+
+/* Header Responsive Styles */
+@media (max-width: 992px) {
+    header .navbar .nav-links{
+        display: none !important;
+    }
+    header .navbar .responsive-nav{
+        display: block !important;
+    }
+
+}
+@media (min-width: 993px){
+    header .navbar .nav-links{
+        display: flex !important;
+    }
+    header .navbar .menu{
+        display: none !important;
+    } 
+}

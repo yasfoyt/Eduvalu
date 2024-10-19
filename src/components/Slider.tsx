@@ -58,13 +58,13 @@ const Slider = () => {
           }}
         >
           {[
-            { src: "public/images/1.jpg", name: "Youssef Mohammed" },
-            { src: "public/images/2.jpg", name: "Youssef Mohammed" },
-            { src: "public/images/3.jpg", name: "Youssef Mohammed" },
-            { src: "public/images/3.jpg", name: "Youssef Mohammed" },
-            { src: "public/images/1.jpg", name: "Youssef Mohammed" },
-            { src: "public/images/4.jpeg", name: "Youssef Mohammed" },
-            { src: "public/images/2.jpg", name: "Youssef Mohammed" },
+            { src: "/images/1.jpg", name: "Youssef Mohammed" },
+            { src: "/images/2.jpg", name: "Youssef Mohammed" },
+            { src: "/images/3.jpg", name: "Youssef Mohammed" },
+            { src: "/images/3.jpg", name: "Youssef Mohammed" },
+            { src: "/images/1.jpg", name: "Youssef Mohammed" },
+            { src: "/images/4.jpeg", name: "Youssef Mohammed" },
+            { src: "/images/2.jpg", name: "Youssef Mohammed" },
           ].map((item, index) => (
             <SwiperSlide key={index} className="card-item">
               {" "}

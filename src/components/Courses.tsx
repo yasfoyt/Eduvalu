@@ -69,7 +69,7 @@ const Courses = () => {
               exams: 3,
             },
             {
-              src: "public/images/2.jpg",
+              src: "/images/2.jpg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",
@@ -81,7 +81,7 @@ const Courses = () => {
               exams: 3,
             },
             {
-              src: "public/images/3.jpg",
+              src: "/images/3.jpg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",
@@ -93,7 +93,7 @@ const Courses = () => {
               exams: 3,
             },
             {
-              src: "public/images/3.jpg",
+              src: "/images/3.jpg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",
@@ -105,7 +105,7 @@ const Courses = () => {
               exams: 3,
             },
             {
-              src: "public/images/1.jpg",
+              src: "/images/1.jpg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",
@@ -117,7 +117,7 @@ const Courses = () => {
               exams: 3,
             },
             {
-              src: "public/images/4.jpeg",
+              src: "/images/4.jpeg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",
@@ -129,7 +129,7 @@ const Courses = () => {
               exams: 3,
             },
             {
-              src: "public/images/2.jpg",
+              src: "/images/2.jpg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",
@@ -148,7 +148,7 @@ const Courses = () => {
               <h4 className="classname">{item.classname}</h4>
               <div className="teacher">
                 <div className="info">
-                  <img src="public/images/1.jpg" alt="" />
+                  <img src="/images/1.jpg" alt="" />
                   <div className="teacher-info">
                     <h5 className="teacherName">{item.teacherName}</h5>
                     <h6 className="teacherSubject">{item.teacherSubject}</h6>

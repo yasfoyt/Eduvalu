@@ -49,20 +49,20 @@ const Subjects = () => {
           }}
         >
           {[
-            { src: "public/images/arabic.png", name: "Arabic", Teachers: "1" },
+            { src: "/images/arabic.png", name: "Arabic", Teachers: "1" },
             {
-              src: "public/images/english.jpeg",
+              src: "/images/english.jpeg",
               name: "English",
               Teachers: "2",
             },
-            { src: "public/images/math.jpg", name: "Math", Teachers: "3" },
+            { src: "/images/math.jpg", name: "Math", Teachers: "3" },
             {
-              src: "public/images/science.avif",
+              src: "/images/science.avif",
               name: "Science",
               Teachers: "5",
             },
             {
-              src: "public/images/socialstudies.jpg",
+              src: "/images/socialstudies.jpg",
               name: "Social Studies",
               Teachers: "4",
             },

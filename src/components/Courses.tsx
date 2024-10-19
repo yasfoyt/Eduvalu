@@ -57,7 +57,7 @@ const Courses = () => {
         >
           {[
             {
-              src: "public/images/1.jpg",
+              src: "/images/1.jpg",
               name: "Youssef Mohammed",
               classname: "الصف الاول الاعدادي",
               teacherName: "احمد الجوهري",

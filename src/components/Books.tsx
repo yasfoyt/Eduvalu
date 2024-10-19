@@ -150,7 +150,7 @@ const Books = () => {
               <h4 className="classname">{item.classname}</h4>
               <div className="teacher">
                 <div className="info">
-                  <img src="public/images/1.jpg" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="" />
                   <div className="teacher-info">
                     <h5 className="teacherName">{item.teacherName}</h5>
                     <h6 className="teacherSubject">{item.teacherSubject}</h6>

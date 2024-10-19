@@ -11,7 +11,7 @@ const BestTeachers = () => {
           يمكنك التسجيل الآن علي المنصة مجانًا والإشتراك مع نخبة من المدرسين
           المتواجدين لدينا .
         </p>
-        <img src="public/images/bestteachers.png" alt="" />
+        <img src={`${process.env.PUBLIC_URL}/images/bestteachers.png`} alt="" />
       </div>
     </div>
   );
